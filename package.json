@@ -16,7 +16,10 @@
     "url": "https://github.com/simonmartyr/GulpCourse/issues"
   },
   "homepage": "https://github.com/simonmartyr/GulpCourse#readme",
-  "dependencies": {
-    "gulp": "^3.9.1"
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^1.0.2"
   }
 }

@@ -8,3 +8,4 @@ pids
 *.pid.lock
 .npm
 build/Release
+public/dist
