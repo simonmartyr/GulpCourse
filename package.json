@@ -16,7 +16,9 @@
     "url": "https://github.com/simonmartyr/GulpCourse/issues"
   },
   "homepage": "https://github.com/simonmartyr/GulpCourse#readme",
-  "dependencies": {},
+  "dependencies": {
+    "static-server": "^2.0.5"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-uglify": "^3.0.0",
