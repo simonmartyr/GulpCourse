@@ -1,0 +1,22 @@
+{
+  "name": "gulp-website",
+  "version": "1.0.0",
+  "description": "A basic website using gulpjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonmartyr/GulpCourse.git"
+  },
+  "author": "@simonmartyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonmartyr/GulpCourse/issues"
+  },
+  "homepage": "https://github.com/simonmartyr/GulpCourse#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
