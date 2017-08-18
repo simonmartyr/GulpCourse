@@ -47,7 +47,7 @@ gulp.task('watch', function(){
   livereload.listen(); 
   gulp.watch(SCRIPTS_PATH, ['scripts']);
   gulp.watch(CSS_PATH, ['styles']);
-})
+});
 
 gulp.task('default', function(){
   console.log("starting default task...");
