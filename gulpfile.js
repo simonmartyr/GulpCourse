@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var minifyCss = require('gulp-minify-css');
+var autoPrefixer = require('gulp-autoprefixer');
 var pump = require('pump');
 var livereload = require('gulp-livereload');
 
@@ -16,6 +17,7 @@ gulp.task('styles', function(){
   console.log("Starting styles task...");
   pump([
     gulp.src(['public/css/reset.css', CSS_PATH]),
+    autoPrefixer(), 
     concat('styles.css'),
     minifyCss(),
     gulp.dest(DIST_PATH),
